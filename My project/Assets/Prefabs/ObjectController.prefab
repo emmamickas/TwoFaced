@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1577968426792913568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1577968426792913569}
+  - component: {fileID: 1577968426792913582}
+  m_Layer: 0
+  m_Name: ObjectController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1577968426792913569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577968426792913568}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.05699545, y: -3.4190996, z: -5.520257}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1577968426792913582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577968426792913568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f107d8a958fc1241a16458de77213c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseEnemySpawnerPrefab: {fileID: 2529321681428005179, guid: 7d84df56701b3c84a846dfb915e4f1ac, type: 3}
+  gruntSpawnerPrefab: {fileID: 486675079271405165, guid: eb650b260a215374d813179fc4eb2c83, type: 3}
+  goonSpawnerPrefab: {fileID: 2352083942386423327, guid: 648a83a3b82ee0a4892ae0620be8e76f, type: 3}
+  bruteSpawnerPrefab: {fileID: 5887138448698938774, guid: 4008bec8d361e4843ad28fc883d2655b, type: 3}
+  bossSpawnerPrefab: {fileID: 8908721694618706561, guid: d5984d8a1c6c1c047bffece30904b57c, type: 3}
+  baseEnemyProjectilePrefab: {fileID: 995769889236707899, guid: c79c3c8a40b714c47ab1853d5462c011, type: 3}
+  baseEnemyPrefab: {fileID: 5805693123164010047, guid: cd2a78dc2756e6b44850053b2176535b, type: 3}
+  playerProjectilePrefab: {fileID: 7288940008275630396, guid: 157dcc80b909a144e84643d76f7234aa, type: 3}
+  gruntProjectilePrefab: {fileID: 6164392958192758582, guid: da0c6593921a2e3458ceab132db289bc, type: 3}
+  gruntPrefab: {fileID: 8447236831747831972, guid: a5eb4962f34ae1247a27bcf804da29d2, type: 3}
+  goonProjectilePrefab: {fileID: 9088878336263027401, guid: 8d85c476c93e80c4d921b48ec5f34ca6, type: 3}
+  goonPrefab: {fileID: 8981586466072780970, guid: 6cd2f40b81744c0468757be65768308c, type: 3}
+  bruteProjectilePrefab: {fileID: 1165261022189368713, guid: 2dfd978b27ebcf0418e19792a93ab1ea, type: 3}
+  brutePrefab: {fileID: 5463214501190273297, guid: 588a46af98aab67408b8324a044cf798, type: 3}
+  bossProjectilePrefab: {fileID: 4041597182938620434, guid: e018f9b242c90e144ba3f5e91c4260f2, type: 3}
+  bossPrefab: {fileID: 5644495486508392215, guid: 188aec36d3974be4f980bd0d0a9d1d4c, type: 3}
+  TVPromptPrefab: {fileID: 1826491967944132807, guid: 0de3991d72301a34a8d7acc16c491c34, type: 3}
+  StoryTextPrefab: {fileID: 2196084828732126572, guid: bccd31b38c8955748b8de7395b17b400, type: 3}
+  VillainSpeakerPrefab: {fileID: 7525489120500481337, guid: b86b45743d9262946a427066dc6d7843, type: 3}
+  PlayerSpeakerPrefab: {fileID: 94121216037794650, guid: 33452790b0f6eaf46a82362486c3daa0, type: 3}
+  TVSpeakerPrefab: {fileID: 2297419545979498828, guid: d8245137bc8a80f439cbc778897a1860, type: 3}

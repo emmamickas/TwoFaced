@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author/>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments/>
+    </contributor>
+    <created>2023-02-01T01:54:08Z</created>
+    <keywords/>
+    <modified>2023-02-01T01:54:08Z</modified>
+    <revision/>
+    <subject/>
+    <title/>
+    <unit meter="0.010000" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_materials>
+    <material id="indigoLambert" name="indigoLambert">
+      <instance_effect url="#indigoLambert-fx"/>
+    </material>
+    <material id="whiteLambert" name="whiteLambert">
+      <instance_effect url="#whiteLambert-fx"/>
+    </material>
+    <material id="cyanLambert" name="cyanLambert">
+      <instance_effect url="#cyanLambert-fx"/>
+    </material>
+    <material id="pinkLambert" name="pinkLambert">
+      <instance_effect url="#pinkLambert-fx"/>
+    </material>
+    <material id="turquoiseLambert" name="turquoiseLambert">
+      <instance_effect url="#turquoiseLambert-fx"/>
+    </material>
+    <material id="violetLambert" name="violetLambert">
+      <instance_effect url="#violetLambert-fx"/>
+    </material>
+    <material id="redLambert" name="redLambert">
+      <instance_effect url="#redLambert-fx"/>
+    </material>
+    <material id="orangeLambert" name="orangeLambert">
+      <instance_effect url="#orangeLambert-fx"/>
+    </material>
+    <material id="yellowLambert" name="yellowLambert">
+      <instance_effect url="#yellowLambert-fx"/>
+    </material>
+    <material id="greenLambert" name="greenLambert">
+      <instance_effect url="#greenLambert-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="indigoLambert-fx" name="indigoLambert">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.103736  0.033200 0.400000 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="whiteLambert-fx" name="whiteLambert">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.800000  0.800000 0.800000 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="cyanLambert-fx" name="cyanLambert">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.056400  0.400000 0.320709 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="pinkLambert-fx" name="pinkLambert">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.587200  0.090429 0.548990 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="turquoiseLambert-fx" name="turquoiseLambert">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.028454  0.721091 0.748800 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="violetLambert-fx" name="violetLambert">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.169227  0.000000 0.400000 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="redLambert-fx" name="redLambert">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.400000  0.000000 0.000000 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="orangeLambert-fx" name="orangeLambert">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.800000  0.307693 0.000000 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="yellowLambert-fx" name="yellowLambert">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.748800  0.748800 0.081619 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="greenLambert-fx" name="greenLambert">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.184586  0.685600 0.000000 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="pCube1-lib" name="pCube1Mesh">
+      <mesh>
+        <source id="pCube1-POSITION">
+          <float_array id="pCube1-POSITION-array" count="108">
+-9.600000 -2.500000 5.400000
+-8.739956 -2.500000 5.400000
+8.697176 -2.500000 5.400000
+9.600000 -2.500000 5.400000
+-9.600000 2.500000 5.400000
+-8.739956 2.500000 5.400000
+8.697176 2.500000 5.400000
+9.600000 2.500000 5.400000
+-9.600000 2.500000 4.666224
+-8.739956 2.500000 4.666224
+8.697176 2.500000 4.666224
+9.600000 2.500000 4.666224
+-9.600000 2.500000 -4.580665
+-8.739956 2.500000 -4.580665
+8.697176 2.500000 -4.580665
+9.600000 2.500000 -4.580665
+-9.600000 2.500000 -5.400001
+-8.739956 2.500000 -5.400001
+8.697176 2.500000 -5.400001
+9.600000 2.500000 -5.400001
+-9.600000 -2.500000 -5.400001
+-8.739956 -2.500000 -5.400001
+8.697176 -2.500000 -5.400001
+9.600000 -2.500000 -5.400001
+-9.600000 -2.500000 -4.580665
+-8.739956 -2.500000 -4.580665
+8.697176 -2.500000 -4.580665
+9.600000 -2.500000 -4.580665
+-9.600000 -2.500000 4.666224
+-8.739956 -2.500000 4.666224
+8.697176 -2.500000 4.666224
+9.600000 -2.500000 4.666224
+-8.739956 -2.278486 4.666224
+8.697176 -2.278486 4.666224
+8.697176 -2.278486 -4.580665
+-8.739956 -2.278486 -4.580665
+</float_array>
+          <technique_common>
+            <accessor source="#pCube1-POSITION-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube1-Normal0">
+          <float_array id="pCube1-Normal0-array" count="612">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#pCube1-Normal0-array" count="204" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube1-UV0">
+          <float_array id="pCube1-UV0-array" count="104">
+0.375000 0.000000
+0.458333 0.000000
+0.541667 0.000000
+0.625000 0.000000
+0.375000 0.250000
+0.458333 0.250000
+0.541667 0.250000
+0.625000 0.250000
+0.375000 0.333333
+0.458333 0.333333
+0.541667 0.333333
+0.625000 0.333333
+0.375000 0.416667
+0.458333 0.416667
+0.541667 0.416667
+0.625000 0.416667
+0.375000 0.500000
+0.458333 0.500000
+0.541667 0.500000
+0.625000 0.500000
+0.375000 0.750000
+0.458333 0.750000
+0.541667 0.750000
+0.625000 0.750000
+0.375000 0.833333
+0.458333 0.833333
+0.541667 0.833333
+0.625000 0.833333
+0.375000 0.916667
+0.458333 0.916667
+0.541667 0.916667
+0.625000 0.916667
+0.375000 1.000000
+0.458333 1.000000
+0.541667 1.000000
+0.625000 1.000000
+0.875000 0.000000
+0.791667 0.000000
+0.708333 0.000000
+0.875000 0.250000
+0.791667 0.250000
+0.708333 0.250000
+0.125000 0.000000
+0.208333 0.000000
+0.291667 0.000000
+0.125000 0.250000
+0.208333 0.250000
+0.291667 0.250000
+0.458333 0.333333
+0.541667 0.333333
+0.541667 0.416667
+0.458333 0.416667
+</float_array>
+          <technique_common>
+            <accessor source="#pCube1-UV0-array" count="52" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube1-VERTEX">
+          <input semantic="POSITION" source="#pCube1-POSITION"/>
+        </vertices>
+        <triangles count="6" material="indigoLambert">
+          <input semantic="VERTEX" offset="0" source="#pCube1-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#pCube1-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#pCube1-UV0"/>
+          <p> 4 0 4 0 1 0 5 2 5 5 3 5 0 4 0 1 5 1 6 6 6 5 7 5 1 8 1 6 9 6 1 10 1 2 11 2 6 12 6 2 13 2 7 14 7 7 15 7 2 16 2 3 17 3</p>
+        </triangles>
+        <triangles count="16" material="whiteLambert">
+          <input semantic="VERTEX" offset="0" source="#pCube1-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#pCube1-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#pCube1-UV0"/>
+          <p> 5 18 5 9 19 9 4 20 4 4 21 4 9 22 9 8 23 8 5 24 5 6 25 6 10 26 10 5 27 5 10 28 10 9 29 9 7 30 7 11 31 11 6 32 6 6 33 6 11 34 11 10 35 10 13 36 13 8 37 8 9 38 9 8 39 8 13 40 13 12 41 12 11 48 11 15 49 15 10 50 10 10 51 10 15 52 15 14 53 14 13 54 13 17 55 17 12 56 12 12 57 12 17 58 17 16 59 16 18 60 18 13 61 13 14 62 14 13 63 13 18 64 18 17 65 17 15 66 15 19 67 19 14 68 14 14 69 14 19 70 19 18 71 18</p>
+        </triangles>
+        <triangles count="20" material="cyanLambert">
+          <input semantic="VERTEX" offset="0" source="#pCube1-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#pCube1-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#pCube1-UV0"/>
+          <p> 32 42 48 33 43 49 34 44 50 32 45 48 34 46 50 35 47 51 25 90 25 24 91 24 20 92 20 25 93 25 20 94 20 21 95 21 26 96 26 25 97 25 21 98 21 26 99 26 21 100 21 22 101 22 27 102 27 26 103 26 22 104 22 27 105 27 22 106 22 23 107 23 28 108 28 24 109 24 29 110 29 29 111 29 24 112 24 25 113 25 30 114 30 29 115 29 25 116 25 30 117 30 25 118 25 26 119 26 30 120 30 26 121 26 31 122 31 31 123 31 26 124 26 27 125 27 1 126 33 0 127 32 28 128 28 1 129 33 28 130 28 29 131 29 2 132 34 1 133 33 29 134 29 2 135 34 29 136 29 30 137 30 3 138 35 2 139 34 30 140 30 3 141 35 30 142 30 31 143 31</p>
+        </triangles>
+        <triangles count="6" material="pinkLambert">
+          <input semantic="VERTEX" offset="0" source="#pCube1-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#pCube1-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#pCube1-UV0"/>
+          <p> 20 72 20 16 73 16 21 74 21 21 75 21 16 76 16 17 77 17 22 78 22 21 79 21 17 80 17 22 81 22 17 82 17 18 83 18 22 84 22 18 85 18 23 86 23 23 87 23 18 88 18 19 89 19</p>
+        </triangles>
+        <triangles count="6" material="turquoiseLambert">
+          <input semantic="VERTEX" offset="0" source="#pCube1-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#pCube1-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#pCube1-UV0"/>
+          <p> 23 144 36 19 145 39 27 146 37 15 147 40 27 148 37 19 149 39 15 150 40 11 151 41 31 152 38 31 153 38 27 154 37 15 155 40 31 156 38 11 157 41 3 158 3 7 159 7 3 160 3 11 161 41</p>
+        </triangles>
+        <triangles count="6" material="violetLambert">
+          <input semantic="VERTEX" offset="0" source="#pCube1-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#pCube1-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#pCube1-UV0"/>
+          <p> 12 162 46 20 163 42 24 164 43 20 165 42 12 166 46 16 167 45 8 168 47 24 169 43 28 170 44 24 171 43 8 172 47 12 173 46 4 174 4 28 175 44 0 176 0 28 177 44 4 178 4 8 179 47</p>
+        </triangles>
+        <triangles count="2" material="redLambert">
+          <input semantic="VERTEX" offset="0" source="#pCube1-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#pCube1-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#pCube1-UV0"/>
+          <p> 33 180 49 32 181 48 9 182 9 33 183 49 9 184 9 10 185 10</p>
+        </triangles>
+        <triangles count="2" material="orangeLambert">
+          <input semantic="VERTEX" offset="0" source="#pCube1-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#pCube1-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#pCube1-UV0"/>
+          <p> 34 186 50 33 187 49 10 188 10 10 189 10 14 190 14 34 191 50</p>
+        </triangles>
+        <triangles count="2" material="yellowLambert">
+          <input semantic="VERTEX" offset="0" source="#pCube1-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#pCube1-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#pCube1-UV0"/>
+          <p> 14 192 14 13 193 13 35 194 51 14 195 14 35 196 51 34 197 50</p>
+        </triangles>
+        <triangles count="2" material="greenLambert">
+          <input semantic="VERTEX" offset="0" source="#pCube1-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#pCube1-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#pCube1-UV0"/>
+          <p> 32 198 48 13 199 13 9 200 9 13 201 13 32 202 48 35 203 51</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="PracticeRoom" name="PracticeRoom">
+      <node name="pCube1" id="pCube1" sid="pCube1">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.564475 0.000000 1.000000 0.000000 3.162534 0.000000 0.000000 1.000000 0.061064 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#pCube1-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="indigoLambert" target="#indigoLambert"/>
+              <instance_material symbol="whiteLambert" target="#whiteLambert"/>
+              <instance_material symbol="cyanLambert" target="#cyanLambert"/>
+              <instance_material symbol="pinkLambert" target="#pinkLambert"/>
+              <instance_material symbol="turquoiseLambert" target="#turquoiseLambert"/>
+              <instance_material symbol="violetLambert" target="#violetLambert"/>
+              <instance_material symbol="redLambert" target="#redLambert"/>
+              <instance_material symbol="orangeLambert" target="#orangeLambert"/>
+              <instance_material symbol="yellowLambert" target="#yellowLambert"/>
+              <instance_material symbol="greenLambert" target="#greenLambert"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>24.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.041667</start_time>
+          <end_time>8.333333</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#PracticeRoom"/>
+  </scene>
+</COLLADA>
